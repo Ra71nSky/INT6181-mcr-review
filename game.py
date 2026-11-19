@@ -67,7 +67,8 @@ def read_cell(board, mark):
         index = row * 3 + col
         if board[index] == EMPTY:
             return index
-        print('  That cell is already taken. Player {} please choose an empty cell.'.format(mark))
+        print('  That cell is already taken. '
+              'Player {} please choose an empty cell.'.format(mark))
 
 
 def main():
